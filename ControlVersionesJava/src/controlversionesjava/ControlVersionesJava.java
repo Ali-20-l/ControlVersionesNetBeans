@@ -4,6 +4,8 @@
  */
 package controlversionesjava;
 
+import java.util.Scanner;
+
 /**
  *
  * @author USER11
@@ -16,10 +18,27 @@ public class ControlVersionesJava {
     public static void main(String[] args) {
         System.out.println("Sistema de calculadora");
         mostrarBienvenida();
+        ControlVersionesJava c = new ControlVersionesJava();
+        c.restar();
     }
 
     // Metodo de la administradora
     public static void mostrarBienvenida() {
         System.out.println("Bienvenidos al proyecto colaborativo");
     }
+
+    public void restar() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer numero: ");
+        double num1 = sc.nextDouble();
+
+        System.out.print("Ingrese el segundo numero: ");
+        double num2 = sc.nextDouble();
+
+        double resultado = num1 - num2;
+
+        System.out.println("El resultado de la resta es: " + resultado);
+    }
+
 }

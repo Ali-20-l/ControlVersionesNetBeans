@@ -20,6 +20,7 @@ public class ControlVersionesJava {
         mostrarBienvenida();
         ControlVersionesJava c = new ControlVersionesJava();
         c.restar();
+        
     }
 
     // Metodo de la administradora

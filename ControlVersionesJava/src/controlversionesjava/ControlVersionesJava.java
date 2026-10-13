@@ -20,6 +20,8 @@ public class ControlVersionesJava {
         mostrarBienvenida();
         ControlVersionesJava c = new ControlVersionesJava();
         c.restar();
+        c.sumar();
+        c.multiplicar();
         
     }
 
@@ -57,6 +59,20 @@ public class ControlVersionesJava {
         System.out.println("El resultado de la resta es: " + resultado);
         
     }
+    
+    public void sumar() {
+            Scanner sc = new Scanner(System.in);
+
+            System.out.print("Ingrese el primer numero: ");
+            double num1 = sc.nextDouble();
+
+            System.out.print("Ingrese el segundo numero: ");
+            double num2 = sc.nextDouble();
+
+            double resultado = num1 + num2;
+
+            System.out.println("El resultado de la suma es: " + resultado);
+        }
 
 
 

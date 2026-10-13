@@ -9,4 +9,11 @@ package controlversionesjava;
  * @author M
  */
 public class Montesdeoca {
+      public static void saludar() {
+        System.out.println("Hola, soy Montesdeoca");
+    }
+
+    public static void main(String[] args) {
+        saludar();
+    }
 }

@@ -22,4 +22,8 @@ public class ControlVersionesJava {
     public static void mostrarBienvenida() {
         System.out.println("Bienvenidos al proyecto colaborativo");
     }
+    
+    public static void pruebaRevert() {
+    System.out.println("Este método será eliminado con Revert");
+}
 }

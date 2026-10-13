@@ -10,5 +10,8 @@ package controlversionesjava;
  * @author Pao
  */
 public class PaolaTaipe {
+    public static void main(String[] args) {
+        System.out.println("Hola, este es mi clase");
+    }
 
 }

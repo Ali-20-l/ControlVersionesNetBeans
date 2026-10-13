@@ -42,5 +42,22 @@ public class ControlVersionesJava {
         System.out.println("El resultado de la resta es: " + resultado);
         
     }
+    
+    public void multiplicar() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer numero: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Ingrese el segundo numero: ");
+        int num2 = sc.nextInt();
+
+        double resultado = num1 * num2;
+
+        System.out.println("El resultado de la resta es: " + resultado);
+        
+    }
+
+
 
 }

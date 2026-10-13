@@ -16,7 +16,7 @@ public class ControlVersionesJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Sistema de calculadora");
+        System.out.println("Bienvenidos a nuestra calculadora en Java");
         mostrarBienvenida();
         ControlVersionesJava c = new ControlVersionesJava();
         c.restar();

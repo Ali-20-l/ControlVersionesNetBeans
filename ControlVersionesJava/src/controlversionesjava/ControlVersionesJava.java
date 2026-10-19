@@ -25,7 +25,7 @@ public class ControlVersionesJava {
         
         
         
-        System.out.println("hola");
+        
         
         System.out.println("Como estas");
         

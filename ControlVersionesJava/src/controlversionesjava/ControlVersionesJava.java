@@ -73,6 +73,11 @@ public class ControlVersionesJava {
 
             System.out.println("El resultado de la suma es: " + resultado);
         }
+    
+    
+    public void sumarJZ () {
+       
+   }
 
 
 

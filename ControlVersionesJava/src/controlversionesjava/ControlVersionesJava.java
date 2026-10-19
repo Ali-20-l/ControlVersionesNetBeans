@@ -78,6 +78,10 @@ public class ControlVersionesJava {
     public void sumarJZ () {
        
    }
+    
+    public void conestar(){
+        
+    }
 
 
 
